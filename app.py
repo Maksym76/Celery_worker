@@ -1,4 +1,4 @@
-from flask import Flask, request, flash, redirect, url_for
+from flask import Flask, request, flash, redirect
 from celery_worker import task1
 import os
 from werkzeug.utils import secure_filename
